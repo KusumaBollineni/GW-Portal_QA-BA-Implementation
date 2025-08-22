@@ -1,0 +1,85 @@
+{
+  "info": {
+    "name": "Insurance Portal \u2013 API Template",
+    "_postman_id": "d1111111-1111-1111-1111-111111111111",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create Policy",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/policies",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "policies"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"customerId\": \"CUST-1\", \"product\": \"Auto\", \"startDate\": \"2025-01-01\"}"
+        }
+      }
+    },
+    {
+      "name": "Get Policy by Number",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "{{baseUrl}}/policies/{{policyNumber}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "policies",
+            "{{policyNumber}}"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Create Claim (FNOL)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/claims",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "claims"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\"policyNumber\": \"POL-1001\", \"lossType\": \"Collision\", \"lossDate\": \"2025-02-10\"}"
+        }
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://your-training-env.example"
+    },
+    {
+      "key": "policyNumber",
+      "value": "POL-1001"
+    }
+  ]
+}

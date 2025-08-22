@@ -1,0 +1,4 @@
+Scenario,Steps,Pass/Fail,Comments
+Agent issues a new auto policy,Login → New Policy → Enter details → Quote → Bind → Issue,,
+CSR endorses policy to change address,Login → Search Policy → New Endorsement → Change Address → Recalculate → Bind,,
+Adjuster creates FNOL and assigns claim,Login → New Claim → Enter loss → Submit → Assign Adjuster,,

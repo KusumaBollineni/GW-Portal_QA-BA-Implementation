@@ -1,0 +1,4 @@
+ClaimNumber,PolicyNumber,LossDate,LossType,Amount,Status
+CLM-5001,POL-1001,2025-02-10,Collision,2400,Open
+CLM-5002,POL-1002,2025-03-17,Fire,15000,Closed
+CLM-5003,POL-1001,2025-05-01,Theft,1100,Investigating

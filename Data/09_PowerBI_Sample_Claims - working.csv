@@ -1,0 +1,4 @@
+ClaimNumber,Status,LossType,Amount,SettlementDays
+CLM-5001,Open,Collision,2400,0
+CLM-5002,Closed,Fire,15000,32
+CLM-5003,Investigating,Theft,1100,0

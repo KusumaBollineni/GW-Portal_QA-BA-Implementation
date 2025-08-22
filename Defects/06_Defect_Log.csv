@@ -1,0 +1,2 @@
+Defect ID,Title,Severity,Priority,Status,Steps to Reproduce,Expected,Actual,Build,Assignee
+BUG-001,VIN accepts 10 chars,Major,High,Open,Enter 10-char VIN and quote,VIN must be 17 chars,Quote proceeds,v0.1,Unassigned

@@ -1,0 +1,6 @@
+Test Case ID,Title,Pre-conditions,Steps,Expected Result,Priority,Type
+TC-001,Create auto policy – happy path,Agent logged in; customer exists,1. New auto policy 2. Enter customer + vehicle 3. Quote 4. Bind 5. Issue,Policy number is generated; status Issued,High,Functional
+TC-002,Create auto policy – invalid VIN,Agent logged in,1. New auto policy 2. Enter invalid VIN 3. Quote,System shows VIN validation error; no policy created,Medium,Negative
+TC-010,Endorse policy address,Active policy exists,1. Open policy 2. New endorsement 3. Change address 4. Recalculate 5. Bind,Endorsement created; premium delta shown,High,Functional
+TC-020,Create FNOL,Active policy exists,1. Start FNOL 2. Enter loss details 3. Submit,Claim number created; status Open,High,Functional
+TC-030,Take card payment,Policy with outstanding balance,1. Open billing 2. Add payment 3. Enter card 4. Submit,Payment receipt saved; balance updated,High,Functional

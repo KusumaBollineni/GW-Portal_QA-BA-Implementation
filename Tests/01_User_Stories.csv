@@ -1,0 +1,6 @@
+ID,Role,Feature,Benefit,Acceptance Criteria
+US-001,Agent,Create Auto Policy,Customer gets insured,"Given I am logged in, when I enter customer and vehicle details and click Bind, then a policy number is generated."
+US-002,Underwriter,Approve High-Risk Policy,Control risk,"Given a policy with risk score > 80, when I click Approve, then status changes to Approved and audit trail is saved."
+US-003,CSR,Endorse Policy Address,Keep records current,"Given a valid policy, when address is changed and saved, then endorsement is created and premium difference is shown."
+US-004,Claims Adjuster,Create FNOL,Start claim quickly,"Given a policy is active, when I submit FNOL with loss details, then a claim number is created with status Open."
+US-005,Billing Analyst,Take Payment,Collect premium,"Given a policy with outstanding premium, when I capture card payment, then receipt is stored and balance is updated."

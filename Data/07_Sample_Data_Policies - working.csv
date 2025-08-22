@@ -1,0 +1,4 @@
+PolicyNumber,CustomerName,Product,StartDate,EndDate,Premium,Status
+POL-1001,Alex Rivera,Auto,2025-01-01,2026-01-01,950,Issued
+POL-1002,Priya Shah,Home,2025-01-01,2026-01-01,1200,Issued
+POL-1003,Chris Park,Auto,2025-01-01,2026-01-01,880,Cancelled
